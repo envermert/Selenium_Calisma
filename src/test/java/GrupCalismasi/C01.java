@@ -41,6 +41,8 @@ public class C01 {
 
 //        Sayfayi kapatin.
           driver.close();
+        
+        //Merhaba hocam pull yapmayı deneyin
 
 
     }
