@@ -44,6 +44,8 @@ public class C01 {
         
         //Merhaba hocam pull yapmayı deneyin
 
+        //Merhaba hocam push yapmayi deniyorum
+
 
     }
 }
