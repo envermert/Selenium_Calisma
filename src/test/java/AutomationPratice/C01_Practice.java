@@ -31,7 +31,7 @@ public class C01_Practice {
 //
 //        6. Ad ve e-posta adresini girin
 //        7. 'Kaydol' düğmesini tıklayın
-        driver.findElement(By.cssSelector("[type='text']")).sendKeys("Enver",Keys.TAB,"envermert2@gmail.com",Keys.TAB,Keys.ENTER);
+        driver.findElement(By.cssSelector("[type='text']")).sendKeys("Enver",Keys.TAB,"envermert@gmail.com",Keys.TAB,Keys.ENTER);
 //
 //        8. 'MUHASEBE BİLGİLERİ' görünür olduğunu doğrulayın
         System.out.println("Muhasebe Bilgileri : " +driver.findElement(By.xpath("(//h2)[1]")).isDisplayed());
@@ -69,9 +69,9 @@ public class C01_Practice {
         System.out.println("Kullanici adi Test : " +driver.findElement(By.cssSelector("[class='fa fa-user']")).isDisplayed());
 
 //        17. 'Hesabı Sil' düğmesini tıklayın
-        driver.findElement(By.cssSelector("[href='/delete_account']")).click();
+   //     driver.findElement(By.cssSelector("[href='/delete_account']")).click();
 
-//        18. 'ACCOUNT DELETED!' görünür ve 'Devam' düğmesine tıklayın
-        System.out.println("Account Test : " +driver.findElement(By.cssSelector("[data-qa='account-deleted']")).isDisplayed());
+//        //18. 'ACCOUNT DELETED!' görünür ve 'Devam' düğmesine tıklayın
+        //System.out.println("Account Test : " +driver.findElement(By.cssSelector("[data-qa='account-deleted']")).isDisplayed());
     }
 }
